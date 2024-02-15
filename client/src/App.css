@@ -1,42 +1,112 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+main{
+    background-color: #032830;
+    display: flex;
+    justify-content: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    height: 110px;
+    justify-content: space-around;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.logo_img{
+    width: 70px;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.logo{
+    font-family: "Oleo Script Swash Caps", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    top: 9px;
+    right: -19px;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.lof{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(22, 212, 32);
+    font-size: 26px;
+    margin-left: -95px;
+    position: relative;
+    top: -9px;
+    left: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.custom-link.active,
+.custom-link:active,
+.custom-link:focus {
+  background-color: rgb(255, 205, 57) !important;
+  color: rgb(255, 255, 255)!important;
 }
-
-.card {
-  padding: 2em;
+.custom-link{
+    color: rgb(108, 117, 125) !important;
 }
-
-.read-the-docs {
-  color: #888;
+.pills-nav {
+    font-size: 22px;
+    position: relative;
+    left: -145px;
+}
+.logout{
+    background-color: rgb(255, 205, 57) !important;
+}
+.logout:active{
+    background-color: rgb(255, 179, 60) !important;
+}
+.card{
+    width: 961px;
+    height: 20px;
+    margin-top: 50px;
+}
+.card_img{
+    width: 961px;
+    height: 545px;
+}
+.like_btn{
+    background-color: rgb(255, 179, 60) !important;
+    color: rgb(255, 255, 255) !important;
+    width: 50%;
+}
+.comment_btn{
+    background-color: rgb(255, 179, 60) !important;
+    color: rgb(255, 255, 255) !important;
+    width: 50%;
+}
+.card_Name{
+    font-size: 32px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+.avatar_card{
+    width: 64px;
+    height: 64px;
+    
+}
+.banner{
+    width: 100px !important;
+    
+}
+.avatar_banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.c-signup{
+    width: 20%;
+    border: #000000 1px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background: #1c252780;
+}
+.ABC{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #032830;
+}
+.bgLogin{
+    background-color: #032830;
 }

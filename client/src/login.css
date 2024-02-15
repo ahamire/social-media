@@ -1,0 +1,12 @@
+body{
+    background-color: #032830;
+}
+
+.btnsinup {
+    background: yellow !important;
+    color: black !important;
+    margin: 10px !important;
+}
+.text-black{
+    color: rgb(255, 255, 255) !important;
+}
